@@ -1,0 +1,187 @@
+{
+  "AIS": {
+    "per_concept": [
+      {
+        "concept": "flight",
+        "ais": 0.9969168305397034,
+        "neighborhood_replacement_rate": 0.46153846153846156,
+        "precursor": false
+      },
+      {
+        "concept": "power",
+        "ais": 0.9967347383499146,
+        "neighborhood_replacement_rate": 0.5714285714285714,
+        "precursor": false
+      },
+      {
+        "concept": "future",
+        "ais": 0.9965080618858337,
+        "neighborhood_replacement_rate": 0.75,
+        "precursor": false
+      },
+      {
+        "concept": "machine",
+        "ais": 0.9965014457702637,
+        "neighborhood_replacement_rate": 0.75,
+        "precursor": false
+      },
+      {
+        "concept": "energy",
+        "ais": 0.9961708784103394,
+        "neighborhood_replacement_rate": 0.6666666666666667,
+        "precursor": false
+      },
+      {
+        "concept": "vision",
+        "ais": 0.9959895610809326,
+        "neighborhood_replacement_rate": 0.6666666666666667,
+        "precursor": false
+      },
+      {
+        "concept": "weapon",
+        "ais": 0.9958315491676331,
+        "neighborhood_replacement_rate": 0.46153846153846156,
+        "precursor": false
+      },
+      {
+        "concept": "science",
+        "ais": 0.9938315749168396,
+        "neighborhood_replacement_rate": 0.75,
+        "precursor": false
+      }
+    ],
+    "precursor_threshold": 0.9969702767601311,
+    "corpus_ais": 0.9960605800151825
+  },
+  "vision_source": "nltk.gutenberg:['whitman-leaves.txt', 'blake-poems.txt', 'milton-paradise.txt']",
+  "per_concept": [
+    {
+      "concept": "machine",
+      "token_embedding_drift": 5.960464477539063e-08,
+      "hidden_state_drift": 0.003498554229736328,
+      "layer_profile": {
+        "0": 0.0,
+        "1": 0.0059438347816467285,
+        "2": 0.01117408275604248,
+        "3": 0.012907862663269043,
+        "4": 0.018367648124694824,
+        "5": 0.024571776390075684,
+        "6": 0.003498554229736328
+      },
+      "peak_layer": 5,
+      "neighborhood_replacement_rate": 0.75
+    },
+    {
+      "concept": "power",
+      "token_embedding_drift": 5.960464477539063e-08,
+      "hidden_state_drift": 0.0032652616500854492,
+      "layer_profile": {
+        "0": 5.960464477539063e-08,
+        "1": 0.007093966007232666,
+        "2": 0.012516140937805176,
+        "3": 0.012376129627227783,
+        "4": 0.019348084926605225,
+        "5": 0.026463806629180908,
+        "6": 0.0032652616500854492
+      },
+      "peak_layer": 5,
+      "neighborhood_replacement_rate": 0.5714285714285714
+    },
+    {
+      "concept": "flight",
+      "token_embedding_drift": 0.0,
+      "hidden_state_drift": 0.003083169460296631,
+      "layer_profile": {
+        "0": -1.1920928955078125e-07,
+        "1": 0.007952272891998291,
+        "2": 0.01642310619354248,
+        "3": 0.016558706760406494,
+        "4": 0.02062690258026123,
+        "5": 0.030288755893707275,
+        "6": 0.003083169460296631
+      },
+      "peak_layer": 5,
+      "neighborhood_replacement_rate": 0.46153846153846156
+    },
+    {
+      "concept": "weapon",
+      "token_embedding_drift": -1.1920928955078125e-07,
+      "hidden_state_drift": 0.004168450832366943,
+      "layer_profile": {
+        "0": 0.0,
+        "1": 0.005836427211761475,
+        "2": 0.011371374130249023,
+        "3": 0.012715518474578857,
+        "4": 0.018818259239196777,
+        "5": 0.03220707178115845,
+        "6": 0.004168450832366943
+      },
+      "peak_layer": 5,
+      "neighborhood_replacement_rate": 0.46153846153846156
+    },
+    {
+      "concept": "energy",
+      "token_embedding_drift": 5.960464477539063e-08,
+      "hidden_state_drift": 0.0038291215896606445,
+      "layer_profile": {
+        "0": 5.960464477539063e-08,
+        "1": 0.006757199764251709,
+        "2": 0.015494108200073242,
+        "3": 0.01649230718612671,
+        "4": 0.023242294788360596,
+        "5": 0.028986096382141113,
+        "6": 0.0038291215896606445
+      },
+      "peak_layer": 5,
+      "neighborhood_replacement_rate": 0.6666666666666667
+    },
+    {
+      "concept": "vision",
+      "token_embedding_drift": 0.0,
+      "hidden_state_drift": 0.004010438919067383,
+      "layer_profile": {
+        "0": 0.0,
+        "1": 0.007988393306732178,
+        "2": 0.015290379524230957,
+        "3": 0.01741206645965576,
+        "4": 0.02348405122756958,
+        "5": 0.037623703479766846,
+        "6": 0.004010438919067383
+      },
+      "peak_layer": 5,
+      "neighborhood_replacement_rate": 0.6666666666666667
+    },
+    {
+      "concept": "future",
+      "token_embedding_drift": 0.0,
+      "hidden_state_drift": 0.0034919381141662598,
+      "layer_profile": {
+        "0": -1.1920928955078125e-07,
+        "1": 0.00487673282623291,
+        "2": 0.013154745101928711,
+        "3": 0.012631416320800781,
+        "4": 0.018616080284118652,
+        "5": 0.02482551336288452,
+        "6": 0.0034919381141662598
+      },
+      "peak_layer": 5,
+      "neighborhood_replacement_rate": 0.75
+    },
+    {
+      "concept": "science",
+      "token_embedding_drift": 0.0,
+      "hidden_state_drift": 0.0061684250831604,
+      "layer_profile": {
+        "0": 5.960464477539063e-08,
+        "1": 0.005960047245025635,
+        "2": 0.012617886066436768,
+        "3": 0.013388752937316895,
+        "4": 0.017240703105926514,
+        "5": 0.027484595775604248,
+        "6": 0.0061684250831604
+      },
+      "peak_layer": 5,
+      "neighborhood_replacement_rate": 0.75
+    }
+  ]
+}
