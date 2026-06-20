@@ -1,9 +1,9 @@
 ﻿section,metric,value
-PMDI,corpus_pmdi,0.15157077145842446
-adaptation_drift,mean,0.0023864731192588806
-adaptation_drift,std,0.0005456348701806376
-adaptation_drift,min,0.0017644166946411133
-adaptation_drift,max,0.0035057663917541504
+PMDI,corpus_pmdi,0.19447834062905778
+adaptation_drift,mean,0.0032911449670791626
+adaptation_drift,std,0.0006517551019824446
+adaptation_drift,min,0.0023102760314941406
+adaptation_drift,max,0.004597663879394531
 context_drift,mean,0.0016601458191871643
 context_drift,std,0.000468648656828553
 context_drift,min,0.0009161829948425293

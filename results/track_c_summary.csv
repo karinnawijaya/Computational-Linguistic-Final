@@ -1,5 +1,5 @@
 ﻿section,metric,value
-PSC,psc,0.030134126543998718
-PSC,components,"{""mean_concept_drift"": 0.0034094899892807007, ""centroid_shift"": 0.0018057823181152344, ""silhouette_gain"": 0.08518710732460022}"
-PSC,top_moving_concepts,"[""truth"", ""method"", ""matter"", ""system"", ""mind""]"
+PSC,psc,0.036304699877897896
+PSC,components,"{""mean_concept_drift"": 0.004139766097068787, ""centroid_shift"": 0.0021889209747314453, ""silhouette_gain"": 0.10258541256189346}"
+PSC,top_moving_concepts,"[""truth"", ""method"", ""matter"", ""space"", ""system""]"
 general,domains,"[""science_fiction"", ""learned""]"
