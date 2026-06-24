@@ -1,0 +1,4 @@
+﻿section,metric,value
+AIS,precursor_threshold,0.9938572602911505
+AIS,corpus_ais,0.9921166971325874
+general,vision_source,"nltk.gutenberg:['whitman-leaves.txt', 'blake-poems.txt', 'milton-paradise.txt']"
