@@ -1,0 +1,5 @@
+﻿section,metric,value
+PSC,psc,0.04740741103887558
+PSC,components,"{""mean_concept_drift"": 0.005160890519618988, ""centroid_shift"": 0.0028852224349975586, ""silhouette_gain"": 0.1341761201620102}"
+PSC,top_moving_concepts,"[""truth"", ""method"", ""matter"", ""time"", ""system""]"
+general,domains,"[""science_fiction"", ""learned""]"

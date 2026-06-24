@@ -1,0 +1,197 @@
+{
+  "PMDI": {
+    "per_concept": [
+      {
+        "concept": "security",
+        "pmdi": 0.26967206398646043,
+        "hidden_state_drift": 0.005008995532989502,
+        "neighborhood_replacement_rate": 0.6666666666666667
+      },
+      {
+        "concept": "growth",
+        "pmdi": 0.23386095932551793,
+        "hidden_state_drift": 0.008815884590148926,
+        "neighborhood_replacement_rate": 0.5714285714285714
+      },
+      {
+        "concept": "investment",
+        "pmdi": 0.2311774628502982,
+        "hidden_state_drift": 0.004343390464782715,
+        "neighborhood_replacement_rate": 0.5714285714285714
+      },
+      {
+        "concept": "technology",
+        "pmdi": 0.18879963067861705,
+        "hidden_state_drift": 0.006973743438720703,
+        "neighborhood_replacement_rate": 0.46153846153846156
+      },
+      {
+        "concept": "industry",
+        "pmdi": 0.18854217437597423,
+        "hidden_state_drift": 0.006544649600982666,
+        "neighborhood_replacement_rate": 0.46153846153846156
+      },
+      {
+        "concept": "defense",
+        "pmdi": 0.1872020354637733,
+        "hidden_state_drift": 0.004311084747314453,
+        "neighborhood_replacement_rate": 0.46153846153846156
+      },
+      {
+        "concept": "energy",
+        "pmdi": 0.18706381229253916,
+        "hidden_state_drift": 0.004080712795257568,
+        "neighborhood_replacement_rate": 0.46153846153846156
+      },
+      {
+        "concept": "trade",
+        "pmdi": 0.07549288056113501,
+        "hidden_state_drift": 0.004609346389770508,
+        "neighborhood_replacement_rate": 0.18181818181818177
+      }
+    ],
+    "corpus_pmdi": 0.1952263774417894
+  },
+  "adaptation_drift": {
+    "mean": 0.0044408440589904785,
+    "std": 0.0011249119983675543,
+    "min": 0.00318068265914917,
+    "max": 0.006916046142578125
+  },
+  "context_drift": {
+    "mean": 0.0016601458191871643,
+    "std": 0.000468648656828553,
+    "min": 0.0009161829948425293,
+    "max": 0.0023879408836364746
+  },
+  "per_concept": [
+    {
+      "concept": "energy",
+      "token_embedding_drift": 5.960464477539063e-08,
+      "hidden_state_drift": 0.004080712795257568,
+      "layer_profile": {
+        "0": -1.1920928955078125e-07,
+        "1": 0.004686713218688965,
+        "2": 0.008404672145843506,
+        "3": 0.008287966251373291,
+        "4": 0.010024785995483398,
+        "5": 0.014272093772888184,
+        "6": 0.004080712795257568
+      },
+      "peak_layer": 5,
+      "neighborhood_replacement_rate": 0.46153846153846156
+    },
+    {
+      "concept": "security",
+      "token_embedding_drift": 5.960464477539063e-08,
+      "hidden_state_drift": 0.005008995532989502,
+      "layer_profile": {
+        "0": 5.960464477539063e-08,
+        "1": 0.0036857128143310547,
+        "2": 0.00747990608215332,
+        "3": 0.007545053958892822,
+        "4": 0.009659945964813232,
+        "5": 0.015865445137023926,
+        "6": 0.005008995532989502
+      },
+      "peak_layer": 5,
+      "neighborhood_replacement_rate": 0.6666666666666667
+    },
+    {
+      "concept": "trade",
+      "token_embedding_drift": 5.960464477539063e-08,
+      "hidden_state_drift": 0.004609346389770508,
+      "layer_profile": {
+        "0": 5.960464477539063e-08,
+        "1": 0.004413783550262451,
+        "2": 0.009086012840270996,
+        "3": 0.008801758289337158,
+        "4": 0.009707331657409668,
+        "5": 0.014023542404174805,
+        "6": 0.004609346389770508
+      },
+      "peak_layer": 5,
+      "neighborhood_replacement_rate": 0.18181818181818177
+    },
+    {
+      "concept": "industry",
+      "token_embedding_drift": -1.1920928955078125e-07,
+      "hidden_state_drift": 0.006544649600982666,
+      "layer_profile": {
+        "0": 5.960464477539063e-08,
+        "1": 0.003848254680633545,
+        "2": 0.002691328525543213,
+        "3": 0.003240525722503662,
+        "4": 0.005280256271362305,
+        "5": 0.012071192264556885,
+        "6": 0.006544649600982666
+      },
+      "peak_layer": 5,
+      "neighborhood_replacement_rate": 0.46153846153846156
+    },
+    {
+      "concept": "technology",
+      "token_embedding_drift": -1.1920928955078125e-07,
+      "hidden_state_drift": 0.006973743438720703,
+      "layer_profile": {
+        "0": 0.0,
+        "1": 0.003527820110321045,
+        "2": 0.005730986595153809,
+        "3": 0.006572425365447998,
+        "4": 0.009382426738739014,
+        "5": 0.015531301498413086,
+        "6": 0.006973743438720703
+      },
+      "peak_layer": 5,
+      "neighborhood_replacement_rate": 0.46153846153846156
+    },
+    {
+      "concept": "investment",
+      "token_embedding_drift": 0.0,
+      "hidden_state_drift": 0.004343390464782715,
+      "layer_profile": {
+        "0": 0.0,
+        "1": 0.003999829292297363,
+        "2": 0.00829225778579712,
+        "3": 0.008664131164550781,
+        "4": 0.011761605739593506,
+        "5": 0.017335176467895508,
+        "6": 0.004343390464782715
+      },
+      "peak_layer": 5,
+      "neighborhood_replacement_rate": 0.5714285714285714
+    },
+    {
+      "concept": "growth",
+      "token_embedding_drift": 0.0,
+      "hidden_state_drift": 0.008815884590148926,
+      "layer_profile": {
+        "0": 0.0,
+        "1": 0.004858911037445068,
+        "2": 0.007382333278656006,
+        "3": 0.007588744163513184,
+        "4": 0.010467112064361572,
+        "5": 0.018209993839263916,
+        "6": 0.008815884590148926
+      },
+      "peak_layer": 5,
+      "neighborhood_replacement_rate": 0.5714285714285714
+    },
+    {
+      "concept": "defense",
+      "token_embedding_drift": 0.0,
+      "hidden_state_drift": 0.004311084747314453,
+      "layer_profile": {
+        "0": 5.960464477539063e-08,
+        "1": 0.004294097423553467,
+        "2": 0.008402824401855469,
+        "3": 0.0082663893699646,
+        "4": 0.009809255599975586,
+        "5": 0.014429092407226562,
+        "6": 0.004311084747314453
+      },
+      "peak_layer": 5,
+      "neighborhood_replacement_rate": 0.46153846153846156
+    }
+  ]
+}
